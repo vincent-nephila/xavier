@@ -1,0 +1,26 @@
+@media print {
+@page  
+{ 
+    /*margin: 0cm .7cm 0cm .7cm;*/
+    margin: 0cm 0cm 0cm 0cm;
+    
+    
+    
+}
+         .page-break{
+             page-break-after: always;
+         }
+         .hide-print{
+             display:none;
+         }      
+
+}
+@font-face {
+    font-family: calibri;
+    src: url("../fonts/Calibri.ttf");
+}
+
+
+
+
+
